@@ -1,0 +1,9 @@
+{
+    "seed": 1,
+    "interpret_samples": 20,
+    "epochs": 50,
+    "optimizer": "adam",
+    "lr": 0.01,
+    "lr_patience": 10,
+    "l1_lambda": 1e-4
+}
