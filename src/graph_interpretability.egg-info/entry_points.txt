@@ -1,0 +1,2 @@
+[console_scripts]
+graph_interpretability = graph_interpretability.cli:main

@@ -1,3 +1,46 @@
+Metadata-Version: 2.1
+Name: graph-interpretability
+Version: 0.0.1.dev0
+Summary: Library that runs several interpretability methods on top of graph machine learning methods
+Home-page: https://github.com/AZ-AI/bikg-graphexplainability
+Download-URL: https://github.com/AZ-AI/bikg-graphexplainability/releases
+Author: Andrés Martínez Mora
+Author-email: andres.martinezmora@astrazeneca.com
+Maintainer: Andrés Martínez Mora
+Maintainer-email: andres.martinezmora@astrazeneca.com
+License: MIT
+Project-URL: Bug Tracker, https://github.com/AZ-AI/bikg-graphexplainability/issues
+Project-URL: Source Code, https://github.com/AZ-AI/bikg-graphexplainability
+Keywords: snekpack,cookiecutter
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Pytest
+Classifier: Framework :: tox
+Classifier: Framework :: Sphinx
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: more_itertools
+Requires-Dist: tqdm
+Requires-Dist: click
+Requires-Dist: more_click
+Provides-Extra: tests
+Requires-Dist: pytest; extra == "tests"
+Requires-Dist: coverage; extra == "tests"
+Provides-Extra: docs
+Requires-Dist: sphinx; extra == "docs"
+Requires-Dist: sphinx-rtd-theme; extra == "docs"
+Requires-Dist: sphinx-click; extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints; extra == "docs"
+Requires-Dist: sphinx_automodapi; extra == "docs"
+
 <!--
 <p align="center">
   <img src="https://github.com/AZ-AI/bikg-graphexplainability/raw/main/docs/source/logo.png" height="150">
@@ -431,4 +474,3 @@ This script does the following:
 5. Bump the version to the next patch. If you made big changes and want to bump the version by minor, you can
    use `tox -e bumpversion minor` after.
 </details>
->>>>>>> ae065b2902fcdf3810a676589a79fb4de150a1b6
